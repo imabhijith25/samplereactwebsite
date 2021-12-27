@@ -1,0 +1,14 @@
+.expanderContainer{
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin-top: 40px;
+
+}
+
+.expanderbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}

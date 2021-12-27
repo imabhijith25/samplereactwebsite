@@ -1,0 +1,33 @@
+
+.mapMain{
+ 
+}
+.mapcontainer{
+    margin: 20px;
+    border-radius: 5px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0604/0797/2065/t/2/assets/map.png?v=4776898590846464776);
+    height: 543.8px;
+    background-size:cover
+}
+.mapInfo{
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 20px;
+     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p5map{
+    margin: 2px;
+}
+.h5map{
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.gridButton.directions{
+    margin-top: 30px;
+    background-color: #344767;
+}

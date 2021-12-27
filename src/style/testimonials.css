@@ -1,0 +1,40 @@
+.testimonialComponent{
+
+}
+.headingT{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+
+}
+.r1{
+    /* border: 2px solid black; */
+    width: 309.98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.profilePic{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+@media all and (max-width:900px){
+.Reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  }

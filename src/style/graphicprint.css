@@ -1,0 +1,111 @@
+.Graphiccontainer{
+    margin-top: 50px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.infoshirt{
+    margin-top: 30px;
+}
+mark{
+    background-color: rgba(52,71,103,.4);
+    color: #344767;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.graphich2{
+    color: #344767;
+    margin:0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.price{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.splmark{
+    background-color: rgba(239,68,68,.1);
+    color: #ef4444;
+    font-weight: normal;
+}
+.addOrBuy{
+    margin-bottom: 15px;
+}
+.taxincl{
+    margin: 0px;
+}
+
+.cartAdd.new{
+   border-radius: 6px;
+   margin-bottom: 10px;
+  
+}
+
+.gridButton.new{
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+}
+.m1{
+    margin-left: 10px;
+}
+
+.Shirts{
+    height: 423.73px;
+    width: 564.98;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 40px;
+}
+.someIcons{
+    margin-bottom: 40px;
+}
+.sizebutton{
+    border-radius: 3px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+@media all and (max-width:900px){
+
+    .Graphiccontainer{
+        margin-top: 50px;
+       
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.stickyshirt{
+    margin-right: 0px;
+
+
+}
+.Shirts{
+    height: 308.25;
+    width: 320px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 0px;
+    object-fit: cover;
+    position: sticky;
+}
+/* .infoshirt{
+    padding-left: 25px;
+} */
+.price{
+    margin-right:6px;
+}
+  }

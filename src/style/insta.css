@@ -1,0 +1,33 @@
+.instaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.followus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.f1{
+    width: 255px;
+    height: 132.88;
+
+   text-align: center;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width:900px){
+.features{
+    display: flex;
+    flex-direction: column;
+}
+
+}
