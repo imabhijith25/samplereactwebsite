@@ -12,6 +12,7 @@ const Footer = ()=>{
                 </div>
 
             </div>
+
             <div className="links">
                 <div className="leftlinks">
                     <ul className="linklist"><p><b>Links</b></p>

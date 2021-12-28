@@ -48,6 +48,10 @@ li{
 .footerstuff{
     margin: 2px;
 }
+/* .hrline.footer{
+    margin-top: 0px;
+    margin-bottom: 5px;
+} */
 
 @media all and (max-width:900px){
 
