@@ -19,6 +19,9 @@
     height: 132.88;
 
    text-align: center;
+   font-size: 14px;
+margin-right: 10px;
+   line-height: 1.5em;
 }
 .features{
     display: flex;

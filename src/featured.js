@@ -9,6 +9,10 @@ const Featured=()=>{
         <div className="featuredContainer">
         <div className="gridWrapperF">
              <h3 className="collectionHeadingF">Featured Collection</h3>
+             <div className="underline">
+            <hr className="hrline"></hr>
+
+        </div>
         </div>
 
         <div className="showcase">

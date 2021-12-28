@@ -24,13 +24,18 @@
     text-align: center;
     margin-right: 60px;
     color: #344767;
+    font-size: 16px;
+    line-height: 1.5em;
+ 
+   
 }
 .Reviews{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
+ 
+  
 }
 .profilePic{
     border-radius: 50%;

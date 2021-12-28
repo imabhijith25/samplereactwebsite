@@ -12,6 +12,10 @@ return(
     <div className="gridView">
         <div className="gridWrapper">
         <h3 className="collectionHeading">Collection List</h3>
+        <div className="underline">
+            <hr className="hrline"></hr>
+
+        </div>
         </div>
         
         <div className="mobgridcontainer">

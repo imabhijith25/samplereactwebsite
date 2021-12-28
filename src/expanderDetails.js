@@ -1,7 +1,7 @@
 const ExDetails =(props)=>{
 
     return(
-        <div>
+        <div className="expdetails">
          {props.item}
         </div>
     )

@@ -11,6 +11,10 @@ const Blog=()=>{
         <div className="BlogContainer">
         <div className="gridWrapperF">
              <h3 className="collectionHeadingF">Blog Articles</h3>
+             <div className="underline">
+            <hr className="hrline"></hr>
+
+        </div>
         </div>
         <div className="showcase blog">
             <div className="I1blog">
