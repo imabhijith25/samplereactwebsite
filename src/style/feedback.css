@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #f3f5f7;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .subscribe{
@@ -17,22 +18,25 @@
     color: #344767;
     margin:0px;
     margin-top:70px;
+    font-size: 16px;
 }
 .h2F{
     color: #344767;
-    margin:0px
+    margin:13px;
+    font-size: 23px;
 }
 .pF{
     margin: 0px;
 }
 .email{
-    border-radius: 4px;
-    border: 1px solid #adadad;
+    border-radius: 8px;
+    border: 1px solid rgba(52,71,103,.2);
     width: 400px;
     height: 40px;
-    padding-left: 4px;
+    padding:8px 10px;
     margin-bottom: 6px;
 }
+
 @media all and (max-width:900px){
     .feedBack{
         margin:5px;
@@ -41,10 +45,10 @@
     }
     .email{
         border-radius: 4px;
-        border: 1px solid #adadad;
+        border: 1px solid rgba(52,71,103,.2);
         width: 300px;
         height: 40px;
-        padding-left: 4px;
+        padding:8px 10px;
         margin-bottom: 6px;
     }
     .pF{

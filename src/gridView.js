@@ -13,6 +13,7 @@ return(
         <div className="gridWrapper">
         <h3 className="collectionHeading">Collection List</h3>
         </div>
+        
         <div className="mobgridcontainer">
             <div className="top1">
             <div className="gridItem-1">

@@ -1,11 +1,16 @@
 import {useState} from 'react'
 import ExDetails from './expanderDetails'
 import "./style/expander.css"
-
+import expand from "./images/caret-bottom.svg"
+import collapse from "./images/caret-top.svg"
 const Expander = ()=>{
 
     const [toggleone, setToggleone] = useState('expand')
     const [toggletwo, setToggletwo] = useState('expand')
+
+    const [imageone,setimageone] = useState(expand)
+    const [imagetwo,setimagetwo] = useState(expand)
+
     const [showone,setShowone] = useState(false)
     const [showtwo,setShowtwo] = useState(false)
 
@@ -17,12 +22,14 @@ const Expander = ()=>{
         if(option===1){
             if(toggleone==="expand"){
                 setToggleone("collapse")
+                setimageone(collapse)
                 setShowone(true)
                 setcontent(textdetails[option-1])
                 console.log(showone)
             }
             else if(toggleone==="collapse"){
                 setToggleone("expand")
+                setimageone(expand)
                 setShowone(false)
                 console.log(showone)
                 
@@ -33,11 +40,13 @@ const Expander = ()=>{
         else{
             if(toggletwo === "expand"){
                 setToggletwo("collapse")
+                setimagetwo(collapse)
                 setShowtwo(true)
                 setcontent(textdetails[option-1])
             }
             else if(toggletwo=="collapse"){
                 setToggletwo("expand")
+                setimagetwo(expand)
                 setShowtwo(false)
             }
         }
@@ -48,12 +57,13 @@ const Expander = ()=>{
         <div className='expanderContainer'>
                   <div  className="followus">
     
-                <h2>Frequently Asked Question</h2>
+                <h2 className='faq'>Frequently Asked Question</h2>
+                <p>Our customer service will is here to help you.</p>
             </div>
             <div>
                <div className='expanderbutton'>
                <p><b>  How Do I Order   </b></p>
-                <button onClick={(e)=>{toggleset(e,1)}}>{toggleone}</button>
+                <button className="expandcollapse" onClick={(e)=>{toggleset(e,1)}}> <img src={imageone}></img></button>
               
 
                </div>
@@ -64,7 +74,7 @@ const Expander = ()=>{
             <div>
                <div className='expanderbutton'>
                <p><b>  How Can I make the Payment   </b></p>
-                <button onClick={(e)=>{toggleset(e,2)}}>{toggletwo}</button>
+                <button  className="expandcollapse" onClick={(e)=>{toggleset(e,2)}}><img src={imagetwo}></img></button>
               
 
                </div>

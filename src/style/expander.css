@@ -1,8 +1,8 @@
 .expanderContainer{
     padding-left: 15%;
     padding-right: 15%;
-
-    margin-top: 40px;
+    color:#344767;
+    margin: 40px 0px 100px 0px;
 
 }
 
@@ -11,4 +11,15 @@
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
+    border-bottom: 1px solid rgb(223, 219, 219);
+    margin: 0px 0px 10px 0px;
+
+}
+.expandcollapse{
+    background: none;
+    border:none;
+}
+
+.faq{
+    margin: 0px;
 }

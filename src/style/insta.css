@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 120px;
+    color:#344767
 }
 .followus{
     display: flex;
@@ -22,6 +23,7 @@
 .features{
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 @media all and (max-width:900px){

@@ -11,6 +11,8 @@ const MapView = () =>{
                         <p className="p5map">123 Fake St. Toronto, Canada</p>
                         <b> <p className="p5map"> Open</p></b>
                         <p className="p5map">Mon - Fri, 10am - 9pm</p>
+                        <p className="p5map">Mon - Fri, 10am - 9pm</p>
+                        <p className="p5map">Mon - Fri, 10am - 9pm</p>
                         <button className="gridButton directions">Get Directions</button>
                     
                     </div>

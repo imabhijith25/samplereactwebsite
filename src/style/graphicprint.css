@@ -1,5 +1,5 @@
 .Graphiccontainer{
-    margin-top: 50px;
+    margin-top: 80px;
 
     display:flex;
     flex-direction: row;
@@ -16,12 +16,14 @@ mark{
     padding: 5px;
     border-radius: 4px;
     margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .graphich2{
     color: #344767;
     margin:0px;
     margin-bottom: 10px;
+    font-size: 30px;
     margin-top: 10px;
 }
 
@@ -32,6 +34,9 @@ mark{
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+  
 }
 .splmark{
     background-color: rgba(239,68,68,.1);
@@ -42,9 +47,12 @@ mark{
     margin-bottom: 15px;
 }
 .taxincl{
-    margin: 0px;
+    margin: 0px 0px 30px 0px;
+    color: #344767;
 }
-
+.online{
+      color: #344767;
+}
 .cartAdd.new{
    border-radius: 6px;
    margin-bottom: 10px;
@@ -54,6 +62,7 @@ mark{
 .gridButton.new{
     border-radius: 6px;
     margin-left: 10px;
+    padding:12px 30px;
 }
 .tags{
     display: flex;
@@ -71,12 +80,37 @@ mark{
 }
 .someIcons{
     margin-bottom: 40px;
+    display: flex;
 }
 .sizebutton{
     border-radius: 3px;
     padding: 10px;
     background-color: white;
+    border: 1px solid    #344767;
+    color:  #344767;
+    margin-right: 4px;
 
+}
+.large{
+position: relative;
+width: 33.11px;
+text-align: center;
+}
+.large::before{
+    position: absolute;
+    content: " ";
+    left: 0;
+    top: 50%;
+    right: 0;
+    
+    border-top: 1px solid ;
+    border-color: inherit;
+    -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+    
 }
 
 @media all and (max-width:900px){

@@ -1,4 +1,7 @@
-const Details=()=>{
+
+
+const Details=(props)=>{
+  
 
 
     return(
@@ -6,8 +9,8 @@ const Details=()=>{
       
         <div className="details-container">
           <div className="details-info"> 
-          <h2 className="headingClass">Not Just Clothes</h2>
-            <p>This is the best way to find your favourite stuff. Dont forget all these items are unique pieces crafted by you</p>
+          <h2 className="headingClass">{props.hval}</h2>
+            <p className="pclass">  {props.pval}</p>
             <button className="buyButton">BUY NOW</button>
           </div>
         </div>

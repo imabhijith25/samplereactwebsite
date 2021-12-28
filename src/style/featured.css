@@ -1,5 +1,5 @@
 .featuredContainer{
-    margin-top: 80px;
+    margin-top: 120px;
  
 }
 .gridWrapperF{
@@ -10,7 +10,8 @@
   
   .collectionHeadingF{
     margin: 0px;
-    font-size: 3vh;
+    font-size: 30px;
+    margin-bottom: 15px;
   }
 .showcase{
     margin-top:30px ;
@@ -19,10 +20,30 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: #344767;
+}
+.love{
+
+   
+    width: 309.64px;
+    text-align: right;
+}
+.love.ft{
+
+
+    width: 309.64px;
+    display: flex;
+    justify-content: space-between;
+}
+.save{
+    background-color: rgba(239,68,68,.1);
+    color: #ef4444;
+    font-weight: 400;
+    font-size: 12px;
 }
   .I1{
       padding: 23px;
-
+  
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -33,29 +54,32 @@
     width: 309.98;
 }
 .type{
+    margin-top: 30px;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .cartAdd{
-    border: 2px solid #cb0c9f;
-    border-radius: 4px;
+    border: 1px solid #cb0c9f;
+    border-radius: 7px;
     background-color: white;
-    padding: 12px;
+    padding: 12px 30px;
     color: #cb0c9f;
     font-weight: bold;
+    font-size: .75em;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 6%), 0 4px 6px -1px rgb(0 0 0 / 10%);
 
 }
 .cartAdd:hover{
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
     transition-delay: 2ms;
     transition-duration: 100ms;
 }
 .cost{
-    margin: 0px;
+    margin: 4px 0px 0px 0px;
 }
 
 

@@ -1,0 +1,30 @@
+.mover{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.focused{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: transparent;
+
+    width: 16px;
+    height: 16px;
+}
+.unfocused{
+    border: 2px solid white;
+    border-radius: 50%;
+    background: none;
+    color: transparent;
+    margin-right: 15px;
+   width: 16px;
+   height: 16px;
+}
+.moverbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

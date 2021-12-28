@@ -1,5 +1,10 @@
 .App {
 
+  font-family: "Open Sans",sans-serif;
+}
+.increment{
+ background: none;
+border: none;
 }
 
 .App-logo {
@@ -17,8 +22,22 @@
   object-fit: cover;
 
   height:700px;
-  padding-left: 15%;
-  padding-right: 15%;
+ padding-left: 22%;
+  padding-right: 22%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(31, 30, 30, 0.5),
+  rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-2_2048x.jpg?v=1634648675);
+ background-repeat: no-repeat;
+ 
+}
+.mainContainer2{
+
+  object-fit: cover;
+ 
+  height:700px;
+  padding-left: 22%;
+  padding-right: 22%;
   position: relative;
   overflow: hidden;
   background-image: linear-gradient(rgba(31, 30, 30, 0.5),
@@ -26,7 +45,6 @@
  background-repeat: no-repeat;
  
 }
-
 .subContainer{
 
   height: 100%;
@@ -89,10 +107,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .headingClass{
   margin:0px;
-  font-size:4vh;
+  font-size:64px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 700;
+}
+.pclass{
+  font-size:18px;
+  font-family: "Open Sans",sans-serif;
 }
 
 .buyButton{
@@ -102,18 +127,21 @@
   font-weight: bold;
   border: none;
   border-radius: 4px;
+  margin-top: 14px;
+  font-family: "Open Sans",sans-serif;
+  font-size: 12px;
 }
 .buyButton:hover{
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
   transition-delay: 2ms;
   transition-duration: 100ms;
 }
 /*------outlook---*/
 .midContainer{
-  margin-top: 50px;
+  margin-top: 140px;
 
   height: 200px;
   position: relative;
@@ -132,15 +160,22 @@
 }
 .outlook-heading{
   margin: 0px;
-  font-size: 3vh;
+  font-size: 36px;
+}
+
+.outlooksimple{
+  margin-top: 20px;
+  font-size: 19px;
+  line-height: 1.5em;
 }
 
 /*--GridView----*/
 
 .gridView{
 
-  margin-top: 30px;
-
+  margin-top: 60px;
+ padding-right: 15px;
+ padding-left: 15px;
 
 }
 .gridWrapper{
@@ -151,7 +186,19 @@
 
 .collectionHeading{
   margin: 0px;
-  font-size: 3vh;
+font-weight: 700;
+  font-size:30px ;
+}
+.hrlarge{
+  margin-top: 20px;
+  background-image: linear-gradient(
+    90deg,transparent,rgba(0,0,0,.4),transparent);
+        background-color: transparent;
+        height: 1px;
+        opacity: .25;
+        width: 990px;
+       
+        
 }
 .gridContainer{
 
@@ -162,8 +209,11 @@
   align-items: center;
 }
 .topTwo{
+  margin-top: 35px;
   display: flex;
   flex-direction: row;
+  font-family: "Open Sans",sans-serif;
+  
 }
 .gridItem-1{
   border-radius: 7px;
@@ -245,10 +295,10 @@
 }
 
 .gridButton:hover{
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
   transition-delay: 2ms;
   transition-duration: 100ms;
 }
@@ -298,12 +348,30 @@
   position: relative;
   overflow: hidden;
   background-image: linear-gradient(rgba(31, 30, 30, 0.5),
-  rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-1_4472x.jpg?v=1634648634);
+    rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-2_2048x.jpg?v=1634648675);
+ 
  background-repeat: no-repeat;
 
     
 
   }
+
+  .mainContainer2{
+
+    object-fit: cover;
+   
+    height:700px;
+    padding-left: 15%;
+    padding-right: 15%;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(31, 30, 30, 0.5),
+    rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-1_4472x.jpg?v=1634648634);
+   background-repeat: no-repeat;
+   
+  }
+
+
   .navbar{
     display: none;
   }
@@ -326,7 +394,12 @@
   }
   .outlooksmobile{
     display: inline;
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 1.5em;
   }
+
+  
   .midContainer-sub{
 
     display: flex;
@@ -378,6 +451,14 @@
       transition: margin-left .5s;
       padding: 16px;
   
+
+  }
+
+  .mainContainer2{
+
+    transition: margin-left .5s;
+    padding: 16px;
+   
   }
   .sidebaropen{
     height: 100%;
@@ -447,5 +528,6 @@
     margin-right: 9px;
   }
 
+  
 }
 

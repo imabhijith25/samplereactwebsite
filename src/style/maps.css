@@ -7,7 +7,9 @@
     border-radius: 5px;
     background-image: url(https://cdn.shopify.com/s/files/1/0604/0797/2065/t/2/assets/map.png?v=4776898590846464776);
     height: 543.8px;
-    background-size:cover
+    background-size:cover;
+    padding-left: 15%;
+    color: #344767;
 }
 .mapInfo{
     position: absolute;
@@ -20,14 +22,40 @@
 }
 
 .p5map{
-    margin: 2px;
+    margin: 2px 0px 12px 0px;
+    font-size: 14px;
 }
 .h5map{
     margin: 0px;
     margin-bottom: 8px;
+    font-size: 19px;
 }
 
 .gridButton.directions{
     margin-top: 30px;
     background-color: #344767;
+}
+
+
+@media  all and (max-width:900px) {
+    .mapcontainer{
+        margin: 20px;
+        border-radius: 5px;
+        background-image: url(https://cdn.shopify.com/s/files/1/0604/0797/2065/t/2/assets/map.png?v=4776898590846464776);
+        height: 543.8px;
+        background-size:cover;
+        padding-left: 0%;
+    
+    }
+    .mapInfo{
+        position: absolute;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-left: 27px;
+        padding: 20px;
+        box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    
 }

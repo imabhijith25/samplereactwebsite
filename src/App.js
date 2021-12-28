@@ -18,14 +18,12 @@ import Expander from './expander';
 function App() {
   return (
     <div className="App">
-      <div className='mainContainer'>
+      {/* <div className='mainContainer'>
    
-      <div className="subContainer">
+      <div className="subContainer"> */}
           <Navbar></Navbar>
-          <Details></Details>
-      </div>
-      </div>
-
+          
+ 
 
       <Outlook></Outlook>
       <GridView></GridView>

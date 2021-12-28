@@ -1,5 +1,6 @@
 import "./style/graphicprint.css"
 import shirt from "./images/shirt.jpg"
+import arrowRight from "./images/arrow-right.svg"
 const GraphicPrint = ()=>{
 
     return(
@@ -12,16 +13,18 @@ const GraphicPrint = ()=>{
               <mark>T-SHIRT</mark>
               <h2 className="graphich2">Graphic Print T-Shirt</h2>
                 <div className="price">
-                       <p><del>$400</del></p> 
+                    <p className="online"><del>$400</del> <b>$290</b> <mark className="save">SAVE $110</mark></p>
+                       {/* <p><del>$400</del></p> 
                         <p><b>$290</b></p>
-                        <p><mark className="splmark">Save $110</mark></p>
+                        <p><mark className="splmark">Save $110</mark></p> */}
 
                 </div>
                 <p className="taxincl">Tax Included</p>
                 <hr className="separation"></hr>
-                <p>Size</p>
+                <p className="online">Size</p>
                 <div className="someIcons">
                     <button className="sizebutton">M</button>
+                    <p className="large">L</p>
                 </div>
                 <div className="addOrBuy">
                     <button className="cartAdd new">ADD TO CART</button>
@@ -29,18 +32,18 @@ const GraphicPrint = ()=>{
                 </div>
 
                 <div className="tags">
-                    <p>Tags</p>
-                    <p><mark className="m1">2021</mark></p>
-                    <p><mark className="m1">PRINT</mark></p>
-
+                    <p className="online">Tags</p>
+                    <p className="online"><mark className="m1">2021</mark></p>
+                    <p className="online"><mark className="m1">PRINT</mark></p>
+                    <p className="online"><mark className="m1">T SHIRTS</mark></p>
                 </div>
                 <div className="tags">
-                    <p>Catalog</p>
+                    <p className="online">Catalog</p>
                     <p><mark className="m1">T SHIRTS</mark></p>
                 </div>
 
                 <div className="fulldetails">
-                        <p>Full Details -></p>
+                        <p className="online">Full Details <img src={arrowRight}></img></p>
                 </div>
           </div>
 

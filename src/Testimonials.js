@@ -11,7 +11,7 @@ const Testimonials = ()=>{
             
             <div className="headingT">
                 <h2 className="h2F">Testimonials</h2>
-                <p className="pf">Here’s what our customer have to say</p>
+                <p className="pf test">Here’s what our customer have to say</p>
             </div>
 
             <div className="Reviews">
