@@ -29,6 +29,8 @@ border: none;
   background-image: linear-gradient(rgba(31, 30, 30, 0.5),
   rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-2_2048x.jpg?v=1634648675);
  background-repeat: no-repeat;
+ animation: fadeInner2 ease 2s;
+ animation-fill-mode: forwards;
  
 }
 .mainContainer2{
@@ -43,7 +45,31 @@ border: none;
   background-image: linear-gradient(rgba(31, 30, 30, 0.5),
   rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-1_4472x.jpg?v=1634648634);
  background-repeat: no-repeat;
+ animation: fadeInner ease 2s;
  
+ animation-fill-mode: forwards;
+ 
+}
+
+@keyframes fadeInner {
+  0% {
+    opacity: 20%;
+}
+
+100% {
+    opacity: 1;
+}
+}
+@keyframes fadeInner2 {
+  0% {
+    opacity: 20%;
+}
+
+100% {
+    opacity: 1;
+}
+
+  
 }
 .subContainer{
 
@@ -114,7 +140,21 @@ border: none;
   font-size:64px;
   font-family: "Open Sans",sans-serif;
   font-weight: 700;
+  animation: textfadein 2s ease-in;
 }
+
+@keyframes texfadein {
+  0% {
+    opacity: 20%;
+}
+
+100% {
+    opacity: 1;
+}
+
+  
+}
+
 .pclass{
   font-size:18px;
   font-family: "Open Sans",sans-serif;
@@ -229,6 +269,7 @@ font-weight: 700;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition:transform;
 
 }
 
@@ -269,14 +310,25 @@ font-weight: 700;
  position:absolute;
   z-index: -5;
  filter: brightness(70%);
+ transition:transform ;
+ transition-delay: 2ms;
+ transition-duration: 1000ms;
 
 }
 
-.bagImage:hover{
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1)
+.gridItem-1:hover .bagImage{
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  transform: scale(1.04);
+
+}
+
+.gridItem-3:hover .bagImage{
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  transform: scale(1.04)
 }
 
 .gridHeading{
