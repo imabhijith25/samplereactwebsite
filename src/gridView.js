@@ -68,7 +68,7 @@ return(
                <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Bucket Bags</h3>
                         <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
+                        <button className="gridButton nonanimate">Shop Now</button>
                 </div>
              
                    
@@ -78,7 +78,7 @@ return(
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Trousers</h3>
                         <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
+                        <button className="gridButton nonanimate">Shop Now</button>
                 </div>
              
                 </div>
@@ -89,7 +89,7 @@ return(
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">T Shirts</h3>
                         <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
+                        <button className="gridButton nonanimate">Shop Now</button>
                 </div>
             </div>
             <div className="gridItem-3">
@@ -97,7 +97,7 @@ return(
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Trousers</h3>
                         <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
+                        <button className="gridButton nonanimate">Shop Now</button>
                 </div>
 
 
