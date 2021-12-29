@@ -130,14 +130,16 @@ border: none;
   margin-top: 14px;
   font-family: "Open Sans",sans-serif;
   font-size: 12px;
+  transition:transform;
+  transition-delay: 2ms;
+  transition-duration: 100ms;
 }
 .buyButton:hover{
   -webkit-transform: scale(1.02);
   -moz-transform: scale(1.02);
   -o-transform: scale(1.02);
   transform: scale(1.02);
-  transition-delay: 2ms;
-  transition-duration: 100ms;
+
 }
 /*------outlook---*/
 .midContainer{
@@ -292,6 +294,10 @@ font-weight: 700;
   padding:15px;
   color:white;
   font-weight: bold;
+  transition:transform;
+  transition-delay: 2ms;
+  transition-duration: 100ms;
+
 }
 
 .gridButton:hover{
@@ -299,8 +305,7 @@ font-weight: 700;
   -moz-transform: scale(1.03);
   -o-transform: scale(1.03);
   transform: scale(1.03);
-  transition-delay: 2ms;
-  transition-duration: 100ms;
+  
 }
 
 /* 

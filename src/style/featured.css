@@ -68,6 +68,10 @@
     font-weight: bold;
     font-size: .75em;
     box-shadow: 0 2px 4px -1px rgb(0 0 0 / 6%), 0 4px 6px -1px rgb(0 0 0 / 10%);
+    transition:transform;
+    transition-delay: 2ms;
+    transition-duration: 100ms;
+
 
 }
 .cartAdd:hover{
@@ -75,8 +79,7 @@
     -moz-transform: scale(1.05);
     -o-transform: scale(1.05);
     transform: scale(1.05);
-    transition-delay: 2ms;
-    transition-duration: 100ms;
+ 
 }
 .cost{
     margin: 4px 0px 0px 0px;

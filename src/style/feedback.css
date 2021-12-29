@@ -36,6 +36,18 @@
     padding:8px 10px;
     margin-bottom: 6px;
 }
+.gridButton.subButton{
+    transition:transform background-color;
+    transition-delay: 2ms;
+    transition-duration: 100ms;
+}
+.gridButton.subButton:hover{
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    background-color: #f141c8;
+}
 
 @media all and (max-width:900px){
     .feedBack{
