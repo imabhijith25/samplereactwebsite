@@ -6,7 +6,7 @@ const MapView = () =>{
             <div className="mapcontainer">
                     <div className="mapInfo">
                         <b><p className="p5map">WE ARE HERE</p></b>
-                        <h5 className="h5map">Are you looking for our store?</h5>
+                        <h5 className="h5map">Are you looking for our <br></br>store?</h5>
                        <b> <p className="p5map">Address</p></b>
                         <p className="p5map">123 Fake St. Toronto, Canada</p>
                         <b> <p className="p5map"> Open</p></b>

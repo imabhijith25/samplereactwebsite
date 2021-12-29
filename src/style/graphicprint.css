@@ -73,10 +73,12 @@ mark{
 }
 
 .Shirts{
+  
     height: 423.73px;
     width: 564.98;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 40px;
+
 }
 .someIcons{
     margin-bottom: 40px;
@@ -90,6 +92,12 @@ mark{
     color:  #344767;
     margin-right: 4px;
 
+}
+.stickyshirt{
+    top:0px;
+ 
+
+    position: sticky;
 }
 .large{
 position: relative;
@@ -142,7 +150,7 @@ text-align: center;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 0px;
     object-fit: cover;
-    position: sticky;
+
 }
 /* .infoshirt{
     padding-left: 25px;
