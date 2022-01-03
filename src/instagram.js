@@ -1,6 +1,8 @@
 import insta from "./images/insta.svg"
 import "./style/insta.css"
 import truck from "./images/truck.png"
+import Photos from "./instaphotos"
+
 const Insta = ()=>{
 
     return(
@@ -9,6 +11,8 @@ const Insta = ()=>{
             <img src={insta}></img>
                 <h2>Follow Us on Instagram</h2>
             </div>
+            <Photos></Photos>
+            
            <div className="features">
                <div className="f1">
                    <img src={truck}></img>

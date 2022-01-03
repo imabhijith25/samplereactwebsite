@@ -29,7 +29,7 @@ border: none;
   background-image: linear-gradient(rgba(31, 30, 30, 0.5),
   rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-2_2048x.jpg?v=1634648675);
  background-repeat: no-repeat;
- animation: fadeInner2 ease 2s;
+ animation: fadeInner2 ease-in-out 1s;
  animation-fill-mode: forwards;
  
 }
@@ -45,7 +45,7 @@ border: none;
   background-image: linear-gradient(rgba(31, 30, 30, 0.5),
   rgba(58, 57, 57, 0.5)), url(https://cdn.shopify.com/s/files/1/0604/0797/2065/files/bg-1_4472x.jpg?v=1634648634);
  background-repeat: no-repeat;
- animation: fadeInner ease 2s;
+ animation: fadeInner ease-in-out 1s;
  
  animation-fill-mode: forwards;
  
@@ -53,7 +53,7 @@ border: none;
 
 @keyframes fadeInner {
   0% {
-    opacity: 0.3;
+    opacity: 0;
 }
 
 100% {
@@ -62,7 +62,7 @@ border: none;
 }
 @keyframes fadeInner2 {
   0% {
-    opacity: 0.3;
+    opacity: 0;
 }
 
 100% {

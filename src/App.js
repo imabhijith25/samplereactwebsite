@@ -14,6 +14,8 @@ import Testimonials from './Testimonials';
 import Insta from './instagram';
 import Footer from './footer';
 import Expander from './expander';
+import Photos from './instaphotos';
+
 
 function App() {
   return (
@@ -34,9 +36,11 @@ function App() {
       <Fashion></Fashion>
       <Blog></Blog>
       <Testimonials></Testimonials>
-      <Insta></Insta>
+      {/* <Insta></Insta> */}
+     
        <Expander></Expander>
       <Footer></Footer>
+
 
      
     </div>
