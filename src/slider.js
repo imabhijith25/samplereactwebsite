@@ -6,6 +6,7 @@ const Slider = (props)=>{
         const newval = ((props.currentval + 1) % 2);
         
         props.changeCounter(newval)
+        console.log(newval)
       
     }
 
@@ -13,7 +14,7 @@ const Slider = (props)=>{
    
         const newval = Math.abs((props.currentval - 1) % 2);
         props.changeCounter(newval)
- 
+        console.log(newval)
     }
 
     return(

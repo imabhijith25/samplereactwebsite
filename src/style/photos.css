@@ -76,5 +76,8 @@
     .godContainer{
         padding: 0 2px 0 2px;
     }
+    .overlay{
+        display: none;
+    }
     }
     
