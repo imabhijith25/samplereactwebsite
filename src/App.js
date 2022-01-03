@@ -36,7 +36,7 @@ function App() {
       <Fashion></Fashion>
       <Blog></Blog>
       <Testimonials></Testimonials>
-      {/* <Insta></Insta> */}
+      <Insta></Insta>
      
        <Expander></Expander>
       <Footer></Footer>
