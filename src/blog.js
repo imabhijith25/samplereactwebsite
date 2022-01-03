@@ -21,7 +21,7 @@ const Blog=()=>{
                 <img src={b1} className="bagFtImg blog"></img>
               
                 <p className="type blog">MFW Today</p>
-                <p className="cost blog">Couture shows have been held in Paris since at least 1945, when the Chambre Syndicale de la Haute Couture...</p>
+                <p className="cost blog">Couture shows have been held in Paris since at least 1945, when the Chambre Syndicale de la Haute<br/> Couture...</p>
             <div className="continue">
                 <p>Continue reading</p>
                 <img src={right}></img>

@@ -11,6 +11,7 @@
 .I1blog{
     padding: 16px;
     width: 280px;
+
     display: flex;
     flex-direction: column;
 
