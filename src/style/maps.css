@@ -7,6 +7,7 @@
     border-radius: 5px;
     background-image: url(https://cdn.shopify.com/s/files/1/0604/0797/2065/t/2/assets/map.png?v=4776898590846464776);
     height: 543.8px;
+
     background-size:cover;
     padding-left: 15%;
     color: #344767;
@@ -14,15 +15,15 @@
 .mapInfo{
     position: absolute;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 6px;
     margin-top: 40px;
     margin-left: 40px;
-    padding: 20px;
+    padding: 60px;
      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .p5map{
-    margin: 2px 0px 12px 0px;
+    margin: 2px 0px 7px 0px;
     font-size: 14px;
 }
 .h5map{
@@ -39,21 +40,28 @@
 
 @media  all and (max-width:900px) {
     .mapcontainer{
-        margin: 20px;
+        /* margin: 20px;
         border-radius: 5px;
         background-image: url(https://cdn.shopify.com/s/files/1/0604/0797/2065/t/2/assets/map.png?v=4776898590846464776);
         height: 543.8px;
         background-size:cover;
-        padding-left: 0%;
+        padding-left: 0%; */
+        background-image: none;
+        padding: 0px 0px 0px 0px;
+        margin: 10px;
+        height: 400.8px;
+        display: flex;
+        justify-content: center;
+    
+
     
     }
     .mapInfo{
-        position: absolute;
+        position: static;
         background-color: white;
         border-radius: 5px;
-        margin-top: 40px;
-        margin-left: 27px;
-        padding: 20px;
+        margin:0px 0px 0px 0px;
+        width: 100%;
         box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
