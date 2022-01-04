@@ -40,9 +40,9 @@ const NewExpand = ()=>{
     <h2 className='faq'>Frequently Asked Question</h2>
     <p>Our customer service will is here to help you.</p>
 </div>
-                <div className="expanderbutton">
+                <div className="expanderbutton" onClick={()=>{changeVal(1)}}>
                 <p><b>  How Do I Order   </b></p>
-                    <button className="expandcollapse" onClick={()=>{changeVal(1)}}><img alt="Expand-Collpase "src={toggleval.isopen1 ? collapse : expand}></img></button>
+                    <button className="expandcollapse" ><img alt="Expand-Collpase "src={toggleval.isopen1 ? collapse : expand}></img></button>
 
                     </div>
 
@@ -58,9 +58,9 @@ const NewExpand = ()=>{
 
 
                 <div className="h1Expand">
-                <div className="expanderbutton">
+                <div className="expanderbutton" onClick={()=>{changeVal(2)}}>
                 <p><b>  How Can I make the payment   </b></p>
-                    <button className="expandcollapse" onClick={()=>{changeVal(2)}}><img alt="Expand-Collpase " src={toggleval.isopen2 ? collapse : expand}></img></button>
+                    <button className="expandcollapse" ><img alt="Expand-Collpase " src={toggleval.isopen2 ? collapse : expand}></img></button>
 
                     </div>
                 <div className={toggleval.isopen2 ? "hcontent2 vcshow" : "hcontent2 vc"}>
@@ -71,9 +71,9 @@ const NewExpand = ()=>{
 
             </div>
             <div className="h1Expand">
-                <div className="expanderbutton">
+                <div className="expanderbutton"  onClick={()=>{changeVal(3)}}>
                 <p><b>  How much time does it take to receive the order  </b></p>
-                    <button  className="expandcollapse" onClick={()=>{changeVal(3)}}><img  alt="Expand-Collpase " src={toggleval.isopen3 ? collapse : expand}></img></button>
+                    <button  className="expandcollapse" ><img  alt="Expand-Collpase " src={toggleval.isopen3 ? collapse : expand}></img></button>
 
                     </div>
                 <div className={toggleval.isopen3 ? "hcontent3 vcshow" : "hcontent3 vc"}>
