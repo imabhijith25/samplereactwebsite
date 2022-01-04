@@ -147,8 +147,8 @@ z-index: -1;
 
 }
 .Shirts{
-    height: 308.25;
-    width: 320px;
+    height: 308.25px;
+    width: 80vw;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 0px;
     object-fit: cover;

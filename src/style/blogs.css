@@ -65,5 +65,12 @@ margin: 0px;
     }
 .I1blog{
     margin-right: 0px;
+    width: 80vw;
+}
+.bagFtImg.blog{
+    height: 208.92px;
+    width: 100%;
+   object-fit: cover;
+    border-radius: 6px;
 }
   }

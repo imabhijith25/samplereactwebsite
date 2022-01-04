@@ -137,7 +137,7 @@ border: none;
 }
 .headingClass{
   margin:0px;
-  font-size:64px;
+  font-size:3.425em;
   font-family: "Open Sans",sans-serif;
   font-weight: 700;
   animation: textfadein  ease-in 2s;
@@ -255,7 +255,9 @@ font-weight: 700;
   margin-top: 35px;
   display: flex;
   flex-direction: row;
+  column-gap: 2vw;
   font-family: "Open Sans",sans-serif;
+
   
 }
 .gridItem-1{
@@ -263,7 +265,7 @@ font-weight: 700;
 
   width: 480px;
   height: 310px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   position: relative;
   overflow: hidden;
   display: flex;
@@ -291,14 +293,17 @@ font-weight: 700;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+  column-gap: 2.2em;
 
 }
 .gridItem-3{
-  margin-right: 25px;
+
   border-radius: 7px;
 
   width: 309px;
   height: 280px;
+ resize: both;
+
   position: relative;
   overflow: hidden;
   display: flex;
@@ -595,20 +600,29 @@ font-weight: 700;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+  }
+  .top1{
+    margin: 1.5em;
   }
   .bottom4{
     display: flex;
+    column-gap: 1.2em;
   }
   .gridItem-1{
-    width:381px;
-    height: 190px;
-    margin-right: 0px;
-    margin-bottom: 8px;
+    width: 80vw;
+
+
+    
+  }
+  .bagImage{
+   object-fit: fill;
   }
   .gridItem-3{
-    width: 183px;
-    height: 130px;
-    margin-right: 9px;
+    width: 38vw;
+    height: 26vh;
+    
+
   }
 
   

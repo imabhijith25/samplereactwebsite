@@ -46,11 +46,14 @@
 
 @media all and (max-width:900px){
     .imageDisplaymobile{
+        padding: 2% 10% 0 10%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0px 0px 20px 0px;
+        column-gap: 2vw;
+        box-sizing: border-box;
+      
     }
 
 
