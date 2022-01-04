@@ -33,9 +33,12 @@
 }
 
 .type.blog{
+    font-size: 20px;
 line-height: 1.5em;
+color:#344767
 }
 .cost.blog{
+    font-size: 16px;
     line-height: 1.5em;
 }
 

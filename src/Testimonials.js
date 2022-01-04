@@ -18,19 +18,19 @@ const Testimonials = ()=>{
                 <div className="r1">
 
 
-                    <img className="profilePic" src={p1}></img>
+                    <img alt="testimonial" className="profilePic" src={p1}></img>
                     <p >If you have the opportunity to play this game of life you need to appreciate every moment."</p>
                     <p><b>Leila Kanye</b></p>
                 </div>
 
                 <div className="r1">
-                    <img className="profilePic" src={p2}></img>
+                    <img alt="testimonial" className="profilePic" src={p2}></img>
                     <p>If you have the opportunity to play this game of life you need to appreciate every moment."</p>
                     <p><b>Emily Jane</b></p>
                 </div>
 
                 <div className="r1">
-                    <img className="profilePic" src={p3}></img>
+                    <img alt="testimonial" className="profilePic" src={p3}></img>
                     <p>"The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color."</p>
                     <p><b>Mike Jackson</b></p>
                 </div>

@@ -1,0 +1,20 @@
+
+.inspContainer{
+    margin: 90px 0 90px 0;
+}
+.I1blog.inspiration{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: none;
+}
+.cost.insptext{
+    text-align: center;
+    line-height: 1.5em;
+}
+.imgI{
+    border-radius: 10px;
+
+}

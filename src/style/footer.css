@@ -6,29 +6,37 @@
 }
 
 .followonSoc{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 22%;
+    padding-right: 22%;
     display: flex;
     flex-direction: row;
    justify-content: space-between;
   
+}
+.copy{
+    margin-top: 5px;
 }
 .rightend{
     display: flex;
 }
 
 .links{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 22%;
+    padding-right: 22%;
     display: flex;
     flex-direction: row;
    justify-content: space-between;
+ 
  
 }
 li{
     list-style-type: none;
     padding-bottom: 5px;
+    margin-bottom: 7px;
   
+}
+.logoFacebook{
+    margin-left: 2px;
 }
 .linklist{
     padding:0px;
@@ -36,22 +44,34 @@ li{
 .footersubscribe{
     display:flex;
     flex-direction: column;
+    width:309.98px;
 }
 .emailfooter{
-    border-radius: 4px;
-    border: 1px solid #adadad;
-   
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+   padding:8px 8px;
     height: 20px;
     padding-left: 4px;
     margin-bottom: 6px;
+    outline: none;
+   
 }
 .footerstuff{
-    margin: 2px;
+    font-size: 16px;
+    margin: 2px 2px 5px 2px;
+
 }
 /* .hrline.footer{
     margin-top: 0px;
     margin-bottom: 5px;
 } */
+
+.hrline.foot{
+    margin: 0 15% 2% 15%;
+}
+.hrline.foot.copy{
+    margin: 0 15% 0 15%;
+}
 
 @media all and (max-width:900px){
 
@@ -62,7 +82,10 @@ li{
     flex-direction: column;
    justify-content: space-between;
   }
-  
+  .followonSoc{
+      padding-left: 15%;
+      padding-right: 15%;
+  }
   }
   
   

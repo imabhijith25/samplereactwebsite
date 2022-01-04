@@ -18,9 +18,9 @@ const Featured=()=>{
         <div className="showcase">
             <div className="I1">
                 <div className="love">
-                    <img src={heart}></img>
+                    <img src={heart} alt="bag Image"></img>
                 </div>
-                <img src={bag1} className="bagFtImg"></img>
+                <img alt="bag Image" src={bag1} className="bagFtImg"></img>
                 <button className="cartAdd">ADD TO CART</button>
                 <p className="type">Sunset Chain Bag</p>
                 <p className="cost">$1,000</p>
@@ -29,9 +29,9 @@ const Featured=()=>{
             </div>
             <div className="I1">
             <div className="love">
-                    <img src={heart}></img>
+                    <img alt="bag Image" src={heart}></img>
                 </div>
-            <img src={bag2} className="bagFtImg"></img>
+            <img alt="bag Image" src={bag2} className="bagFtImg"></img>
                 <button className="cartAdd">ADD TO CART</button>
                 <p className="type">Sunset Chain Bag</p>
                 <p className="cost">$1,000</p>
@@ -43,7 +43,7 @@ const Featured=()=>{
                 <p><mark  className="save">SAVE $1,400</mark></p>
                     <img src={heart}></img>
                 </div>
-            <img src={bag3} className="bagFtImg"></img>
+            <img alt="bag Image" src={bag3} className="bagFtImg"></img>
             <button className="cartAdd">ADD TO CART</button>
                 <p className="type">Sunset Chain Bag</p>
                 <p className="cost">$1,000</p>

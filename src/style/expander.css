@@ -1,6 +1,6 @@
 .expanderContainer{
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 22%;
+    padding-right: 22%;
     color:#344767;
     margin: 40px 0px 100px 0px;
     text-align: center;
@@ -12,8 +12,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    border-bottom: 1px solid rgb(223, 219, 219);
-    margin: 0px 0px 10px 0px;
+
+    margin: 0px 0px 7px 0px;
 
 }
 .expandcollapse{
@@ -26,4 +26,33 @@
 }
 .expdetails{
     text-align: left;
+    animation: rotateX ease-in-out 1s;
+}
+
+@keyframes rotateX {
+    0% {
+      opacity: 0;
+      transform: rotateX(-45deg);
+    }
+    50% {
+      transform: rotateX(-20deg);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+    }
+  }
+
+  
+@media all and (max-width:900px){
+
+  .expanderContainer{
+    padding-left: 15%;
+    padding-right: 15%;
+    color:#344767;
+    margin: 40px 0px 100px 0px;
+    text-align: center;
+
+}
+
 }

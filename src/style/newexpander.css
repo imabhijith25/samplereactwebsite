@@ -1,0 +1,36 @@
+.expandmenu{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.expandSeparator{
+  background-color: #344767;
+  opacity: 0.25;
+  margin-bottom: 10px;
+}
+
+.vc{
+    display: none;
+    
+}
+.vcshow{
+    display: flex;
+    animation: dropit 500ms ease-in ;
+  line-height: 1.45em;
+    text-align: left;
+    /* transition: all .5s ease-in-out; */
+    
+}
+
+@keyframes dropit {
+    0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: .5;
+      }
+      100% {
+        opacity:  1;
+      }
+}

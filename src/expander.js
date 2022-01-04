@@ -44,7 +44,7 @@ const Expander = ()=>{
                 setShowtwo(true)
                 setcontent(textdetails[option-1])
             }
-            else if(toggletwo=="collapse"){
+            else if(toggletwo==="collapse"){
                 setToggletwo("expand")
                 setimagetwo(expand)
                 setShowtwo(false)
@@ -63,18 +63,19 @@ const Expander = ()=>{
             <div>
                <div className='expanderbutton'>
                <p><b>  How Do I Order   </b></p>
-                <button className="expandcollapse" onClick={(e)=>{toggleset(e,1)}}> <img src={imageone}></img></button>
+                <button className="expandcollapse" onClick={(e)=>{toggleset(e,1)}}> <img alt="bag" src={imageone}></img></button>
+                
               
-
                </div>
                {showone && <ExDetails item={textdetails[0]}></ExDetails>}
+
 
             </div>
 
             <div>
                <div className='expanderbutton'>
                <p><b>  How Can I make the Payment   </b></p>
-                <button  className="expandcollapse" onClick={(e)=>{toggleset(e,2)}}><img src={imagetwo}></img></button>
+                <button  className="expandcollapse" onClick={(e)=>{toggleset(e,2)}}><img  alt="bag" src={imagetwo}></img></button>
               
 
                </div>

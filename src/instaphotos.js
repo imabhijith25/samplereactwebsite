@@ -12,28 +12,28 @@ const Photos = ()=>{
             <div className="imageDisplay">
                 
             <div className="imagecontainer">
-                <img src={bag} className="instaphoto"></img>
+                <img alt="bagImage" src={bag} className="instaphoto"></img>
                 <div className="overlay">   
 
                 </div>
 
             </div>
             <div className="imagecontainer">
-                <img src={bag2} className="instaphoto"></img>
+                <img  alt="bagImage" src={bag2} className="instaphoto"></img>
                 <div className="overlay">   
 
                 </div>
 
             </div>
             <div className="imagecontainer">
-                <img src={bag3} className="instaphoto"></img>
+                <img alt="bagImage" src={bag3} className="instaphoto"></img>
                 <div className="overlay">   
 
                 </div>
 
             </div>
             <div className="imagecontainer">
-                <img src={bag} className="instaphoto"></img>
+                <img alt="bagImage" src={bag} className="instaphoto"></img>
                 <div className="overlay">   
 
                 </div>
@@ -50,13 +50,13 @@ const Photos = ()=>{
             <div className="imageDisplaymobile">
 
                             <div className="imagecontainerphone">
-                                    <img src={bag} className="instaphoto"></img>
+                                    <img src={bag} className="instaphoto" alt="bag"></img>
                                     <div className="overlay">   
 
                                     </div>
                                 </div>
                                 <div className="imagecontainerphone">
-                                        <img src={bag2} className="instaphoto"></img>
+                                        <img src={bag2} className="instaphoto" alt="bag"></img>
                                         <div className="overlay">   
 
                                 </div>
@@ -67,13 +67,13 @@ const Photos = ()=>{
             <div className="imageDisplaymobile">
 
             <div className="imagecontainerphone">
-                    <img src={bag3} className="instaphoto"></img>
+                    <img src={bag3} className="instaphoto" alt="bag"></img>
                     <div className="overlay">   
 
                     </div>
                 </div>
                 <div className="imagecontainerphone">
-                        <img src={bag} className="instaphoto"></img>
+                        <img src={bag} className="instaphoto" alt="bag"></img>
                         <div className="overlay">   
 
                 </div>

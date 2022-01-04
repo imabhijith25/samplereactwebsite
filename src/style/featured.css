@@ -24,7 +24,7 @@
 }
 .love{
 
-   
+       margin-bottom: 0px;
     width: 309.64px;
     text-align: right;
 }
@@ -32,6 +32,7 @@
 
 
     width: 309.64px;
+
     display: flex;
     justify-content: space-between;
 }

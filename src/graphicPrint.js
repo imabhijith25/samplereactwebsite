@@ -7,7 +7,7 @@ const GraphicPrint = ()=>{
 
       <div className="Graphiccontainer">
           <div className="stickyshirt">
-<img src={shirt} className="Shirts"></img>
+<img src={shirt} alt="shirtImage" className="Shirts"></img>
           </div>
           <div className="infoshirt">
               <mark>T-SHIRT</mark>

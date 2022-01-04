@@ -21,7 +21,7 @@ return(
         <div className="mobgridcontainer">
             <div className="top1">
             <div className="gridItem-1">
-                <img src={bagImage} className="bagImage"></img>
+                <img  alt="bag Image" src={bagImage} className="bagImage"></img>
                <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Bucket Bags</h3>
                         <p className="gridP">3 Products</p>
@@ -34,7 +34,7 @@ return(
             </div>
             <div className="bottom4">
             <div className="gridItem-3">
-            <img src={ts} className="bagImage"></img>
+            <img  alt="bag Image" src={ts} className="bagImage"></img>
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">T Shirts</h3>
                         <p className="gridP">3 Products</p>
@@ -42,7 +42,7 @@ return(
                 </div>
             </div>
             <div className="gridItem-3">
-            <img src={ts} className="bagImage"></img>
+            <img alt="bag Image" src={ts} className="bagImage"></img>
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">T Shirts</h3>
                         <p className="gridP">3 Products</p>
