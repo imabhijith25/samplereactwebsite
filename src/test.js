@@ -6,7 +6,7 @@ const Test = () =>{
         <div className="trending">
             <div className="wrappertrending">
                 <div>
-                    <img src={fashionimage} className="fashionImage"></img>
+                    <img alt="fashion" src={fashionimage} className="fashionImage"></img>
                 </div>
                 <div className="trendingInfo">
                     <p><mark>TRENDING</mark></p>
