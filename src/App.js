@@ -17,6 +17,7 @@ import Expander from './expander';
 
 import Inspiration from './inspiration';
 import NewExpand from './newexpander';
+import Test from './test';
 
 
 function App() {

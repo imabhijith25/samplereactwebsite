@@ -1,6 +1,6 @@
 .featuredContainer{
     margin-top: 120px;
- 
+
 }
 .gridWrapperF{
     text-align: center;
@@ -9,29 +9,32 @@
   }
   
   .collectionHeadingF{
-    margin: 0px;
+
     font-size: 30px;
     margin-bottom: 15px;
   }
 .showcase{
     margin-top:30px ;
-
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     color: #344767;
+    column-gap: 2%;
 }
 .love{
 
        margin-bottom: 0px;
-    width: 309.64px;
+       width: 100%;
+    max-width: 309.64px;
     text-align: right;
 }
 .love.ft{
 
-
-    width: 309.64px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
 
     display: flex;
     justify-content: space-between;
@@ -43,7 +46,7 @@
     font-size: 12px;
 }
   .I1{
-      padding: 23px;
+
   
       display: flex;
       flex-direction: column;
@@ -51,8 +54,10 @@
       align-items: center;
   }
 .bagFtImg{
+
+   
     height: 232.5px;
-    width: 309.98;
+width: 309.98px;
 }
 .type{
     margin-top: 30px;

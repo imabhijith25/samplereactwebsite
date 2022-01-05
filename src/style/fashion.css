@@ -1,23 +1,37 @@
 
 .midContainerFashion{
     margin-top: 100px;
-  
- 
-    position: relative;
-}
-.ytbcontainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    position: relative;
+    line-height: 1.5em;
 }
-
+.ytube{
+    
+    margin-top: 18px;
+    width: 100%;
+    max-width: 960px;
+ 
+}
+.midContainersub{
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 
 @media all and (max-width:900px){
 
 
-    .midContainer-sub{
+    .midContainersub{
   
 
         display: flex;
@@ -31,13 +45,14 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+     
     }
     .ytube{
         margin-top: 18px;
         border-radius: 4px;
-        height: 200px;
         width: 80vw;
-  
+        height: 40vh;
+      
       }
   }
   

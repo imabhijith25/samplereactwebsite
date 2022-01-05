@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 120px;
+    column-gap: 1.25em;
     color:#344767
 }
 .followus{
@@ -15,12 +17,14 @@
 }
 
 .f1{
-    width: 255px;
+    box-sizing: border-box;
+    max-width: 255px;
     height: 132.88;
-
+    padding-left: 5%;
+    padding-right: 5%;
    text-align: center;
    font-size: 14px;
-margin-right: 10px;
+
    line-height: 1.5em;
 }
 .features{

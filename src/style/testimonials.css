@@ -16,7 +16,7 @@
 }
 .r1{
     /* border: 2px solid black; */
-    width: 309.98px;
+    max-width: 309.98px;
     display: flex;
     flex-direction: column;
     justify-content: center;
