@@ -35,11 +35,13 @@ function App() {
         <MapView></MapView>
         <Fashion></Fashion>
         <Blog></Blog>
+        <Test></Test>
         <Testimonials></Testimonials>
         <Insta></Insta>
         <NewExpand></NewExpand>
         <Inspiration></Inspiration>
         <Footer></Footer>
+       
 
 
      
