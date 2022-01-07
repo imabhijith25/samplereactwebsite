@@ -1,0 +1,70 @@
+            <div className="top1">
+            <div className="gridItem-1">
+                <img  alt="bag Image" src={bagImage} className="bagImage"></img>
+               <div className="gridItem1-Container"> 
+                         <h3 className="gridHeading">Bucket Bags</h3>
+                        <p className="gridP">3 Products</p>
+                        <button className="gridButton">Shop Now</button>
+                </div>
+             
+                   
+                </div>
+                
+            </div>
+            <div className="top1 bottom4">
+            <div className="gridItem-3">
+            <img  alt="bag Image" src={ts} className="bagImage"></img>
+                <div className="gridItem1-Container"> 
+                         <h3 className="gridHeading">T Shirts</h3>
+                        <p className="gridP">3 Products</p>
+                        <button className="gridButton">Shop Now</button>
+                </div>
+            </div>
+            <div className="gridItem-3">
+            <img alt="bag Image" src={ts} className="bagImage"></img>
+                <div className="gridItem1-Container"> 
+                         <h3 className="gridHeading">T Shirts</h3>
+                        <p className="gridP">3 Products</p>
+                        <button className="gridButton">Shop Now</button>
+                </div>
+            </div>
+   
+
+            </div>
+            .mobgridcontainer{
+    
+                margin-top: 50px;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid black;
+              
+                }
+                .top1{
+                  margin: 1.5em;
+               
+                  width: 80%;
+                }
+               .top1.bottom4{
+                  
+                  display: flex;
+                  justify-content: space-between;
+                  column-gap: 1.2em;
+                  /* border: 2px solid black; */
+                 
+                }
+                .gridItem-1{
+                  max-width: 100%;
+              
+              
+                  
+                }
+              
+                .gridItem-3{
+                  width: 38vw;
+               
+               
+              
+                }
+              

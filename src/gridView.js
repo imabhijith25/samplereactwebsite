@@ -4,6 +4,7 @@ import Trousers from "./images/trousers.jpg"
 import ts from "./images/ts.jpg"
 import suits from "./images/suits.png"
 import acc from "./images/acc.jpg"
+import "./style/gridmob.css"
 const GridView = ()=>{
 
 return(
@@ -19,41 +20,48 @@ return(
         </div>
         
         <div className="mobgridcontainer">
-            <div className="top1">
-            <div className="gridItem-1">
-                <img  alt="bag Image" src={bagImage} className="bagImage"></img>
-               <div className="gridItem1-Container"> 
-                         <h3 className="gridHeading">Bucket Bags</h3>
-                        <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
-                </div>
-             
-                   
-                </div>
+            <div className="topone">
+                <h3>Bucket Bags</h3>
+                <p>3 Products</p>
+                <button>SHOP NOW</button>
                 
             </div>
-            <div className="bottom4">
-            <div className="gridItem-3">
-            <img  alt="bag Image" src={ts} className="bagImage"></img>
-                <div className="gridItem1-Container"> 
-                         <h3 className="gridHeading">T Shirts</h3>
-                        <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
+
+
+            {/* bottom two */}
+
+            <div className="bottomTwo">
+                <div className="bottomTwo singular three">
+                <h3>T Shirts</h3>
+                <p>3 Products</p>
+                <button>SHOP NOW</button>
+
                 </div>
-            </div>
-            <div className="gridItem-3">
-            <img alt="bag Image" src={ts} className="bagImage"></img>
-                <div className="gridItem1-Container"> 
-                         <h3 className="gridHeading">T Shirts</h3>
-                        <p className="gridP">3 Products</p>
-                        <button className="gridButton">Shop Now</button>
+                <div className="bottomTwo singular four">
+                <h3>Suits</h3>
+                <p>3 Products</p>
+                <button>SHOP NOW</button>
+
                 </div>
-            </div>
-   
 
             </div>
+  {/* main bottom two */}
 
+            <div className="bottomTwo">
+                <div className="bottomTwo singular one">
+                <h3>Trousers</h3>
+                <p>3 Products</p>
+                <button>SHOP NOW</button>
 
+                </div>
+                <div className="bottomTwo singular two">
+                <h3> Bags</h3>
+                <p>3 Products</p>
+                <button>SHOP NOW</button>
+
+                </div>
+
+            </div>
 
 
 
@@ -64,7 +72,7 @@ return(
         <div className="gridContainer"  >
             <div className="topTwo" >
                 <div className="gridItem-1">
-                <img src={bagImage} className="bagImage"></img>
+                <img src={bagImage} alt="gridbags" className="bagImage"></img>
                <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Bucket Bags</h3>
                         <p className="gridP">3 Products</p>
@@ -74,7 +82,7 @@ return(
                    
                 </div>
                 <div className="gridItem-1">
-                <img src={Trousers} className="bagImage"></img>
+                <img src={Trousers} alt="gridbags" className="bagImage"></img>
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Trousers</h3>
                         <p className="gridP">3 Products</p>
@@ -85,7 +93,7 @@ return(
             </div>
         <div className="bottomThree">
             <div className="gridItem-3">
-            <img src={ts} className="bagImage"></img>
+            <img src={ts}  alt="gridbags" className="bagImage"></img>
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">T Shirts</h3>
                         <p className="gridP">3 Products</p>
@@ -93,7 +101,7 @@ return(
                 </div>
             </div>
             <div className="gridItem-3">
-            <img src={suits} className="bagImage"></img>
+            <img src={suits} alt="gridbags" className="bagImage"></img>
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Trousers</h3>
                         <p className="gridP">3 Products</p>
@@ -104,7 +112,7 @@ return(
             </div>
             <div className="gridItem-3">
 
-            <img src={acc} className="bagImage"></img>
+            <img src={acc} alt="gridbags" className="bagImage"></img>
                 <div className="gridItem1-Container"> 
                          <h3 className="gridHeading">Trousers</h3>
                         <p className="gridP">3 Products</p>

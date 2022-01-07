@@ -1,0 +1,124 @@
+@media all and (max-width:590px) {
+
+      .topTwo{
+    /* display: flex;
+    flex-direction: column; */
+    display: none;
+  }
+  .bottomThree{
+    display: none;
+  }
+
+  .mobgridcontainer{
+      display: flex;
+      flex-direction: column;
+      margin: 2px;
+      padding: 3px;
+      /* border: 2px solid black; */
+      box-sizing: border-box;
+  }
+
+  .topone{
+      /* border: 2px solid green; */
+      width: 100%;
+      border-radius: 6px;
+      background-image:linear-gradient(rgba(49, 48, 48, 0.5),
+      rgba(51, 47, 47, 0.5)), url("https://cdn.shopify.com/s/files/1/0604/0797/2065/collections/bag_1080x.jpg?v=1634656104");
+        background-size: cover;
+    box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4%;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+
+
+    .bottomTwo{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-grow: 2;
+        column-gap: 9px;
+        margin-bottom: 5px;
+        
+    }
+
+    .bottomTwo.singular{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 4%;
+        border-radius: 6px;
+    }
+.topone h3{
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.bottomTwo h3{
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.mobgridcontainer p{
+    color: white;
+    font-size: 1em;
+}
+
+
+.bottomTwo button{
+    background-color: #d419a9;
+    border-radius: 4px;
+    border:none;
+    padding:15px;
+    color:white;
+    font-weight: bold;
+}
+
+.topone button{
+    background-color: #cb0c9f;
+    border-radius: 4px;
+    border:none;
+    padding:15px;
+    color:white;
+    font-weight: bold;
+}
+
+    .bottomTwo.singular h3{
+        color: white;
+
+    }
+
+
+    .bottomTwo.singular.one{
+        background-image: linear-gradient(rgba(29, 24, 24, 0.5),
+        rgba(116, 114, 114, 0.5)),url("https://cdn.shopify.com/s/files/1/0604/0797/2065/collections/bg-5_1080x.jpg?v=1634657849");
+        background-size: cover;
+        
+    }
+
+    .bottomTwo.singular.two{
+        background-image: linear-gradient(rgba(29, 24, 24, 0.5),
+        rgba(116, 114, 114, 0.5)),url("https://cdn.shopify.com/s/files/1/0604/0797/2065/collections/accessories_1080x.jpg?v=1634658539");
+        background-size: cover;
+        
+    }
+    .bottomTwo.singular.three{
+        background-image: linear-gradient(rgba(29, 24, 24, 0.5),
+        rgba(116, 114, 114, 0.5)),url("https://cdn.shopify.com/s/files/1/0604/0797/2065/collections/Screenshot_2021-10-19_at_18.41.56_1080x.png?v=1634658246");
+        background-size: cover;
+        
+    }
+    .bottomTwo.singular.four{
+        background-image: linear-gradient(rgba(29, 24, 24, 0.5),
+        rgba(116, 114, 114, 0.5)),url("https://cdn.shopify.com/s/files/1/0604/0797/2065/collections/fakurian-design-2AVdmi_lYF4-unsplash_1080x.jpg?v=1634657975");
+        background-size: cover;
+        
+    }
+}
