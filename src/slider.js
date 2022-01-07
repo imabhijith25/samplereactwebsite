@@ -19,12 +19,12 @@ const Slider = (props)=>{
 
     return(
         <div className="mover">
-            <button onClick={decrement} className="increment"> <img src={left}></img> </button>
+            <button onClick={decrement} className="increment"> <img src={left} alt="left"></img> </button>
             <div className="moverbutton">
                 <button className={!props.currentval?"focused":"unfocused"} onClick={()=>{props.changeCounter(0)}}>.</button>
                 <button className={props.currentval?"focused":"unfocused"} onClick={()=>{props.changeCounter(1)}} >.</button>
             </div>
-            <button onClick={increment} className="increment"><img src={right} ></img></button>
+            <button onClick={increment} className="increment"><img src={right}  alt="right"></img></button>
          
         </div>
     )
