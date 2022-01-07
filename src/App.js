@@ -13,7 +13,6 @@ import Blog from './blog';
 import Testimonials from './Testimonials';
 import Insta from './instagram';
 import Footer from './footer';
-import Expander from './expander';
 
 import Inspiration from './inspiration';
 import NewExpand from './newexpander';

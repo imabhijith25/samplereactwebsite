@@ -6,8 +6,9 @@ import { useState } from 'react'
 const Navbar = ()=>{
 
   const [counter,setCounter] = useState(0);
-  const [textval,setText] = useState(["This is the best way to find your favourite stuff. Dont forget all these items are unique pieces crafted by you"," This is the best way to find your favorite stuff. Don't forget all these items are unique pieces hand-crafted by people"])
-  const [headval,sethead] = useState(["Not Just Clothes","But a Lifestyle"])
+  const textval = ["This is the best way to find your favourite stuff. Dont forget all these items are unique pieces crafted by you"," This is the best way to find your favorite stuff. Don't forget all these items are unique pieces hand-crafted by people"]
+  const headval = ["Not Just Clothes","But a Lifestyle"]
+
   const changeCounter=(val)=>{
     setCounter(val)
   }
@@ -23,7 +24,7 @@ const Navbar = ()=>{
           <div className='logoContainer'>
             <div className='logoImage'>
             
-              <img className="logoimg" src={creative}></img>
+              <img className="logoimg" alt="logo" src={creative}></img>
             </div>
 
 
@@ -33,6 +34,7 @@ const Navbar = ()=>{
 
             <li className='navItems'>
                     <ul>Home</ul>
+             
                     <ul>Catalog</ul>
                     <ul>Wishlist</ul>
                     <ul>Help</ul>

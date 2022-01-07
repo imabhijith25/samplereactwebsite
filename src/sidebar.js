@@ -19,12 +19,17 @@ const closebar = (e)=>{
 }
 return(
 <div className="sideBarContainer">
+
+
     <button className="open" onClick={(e)=>{openBar(e)}}>☰</button>
 <div className={classn}>
         <button className="closebtn" onClick={(e)=>{closebar(e)}}>x</button>
-    <a href='#'>Home</a>
-    <a href='#'>Catalog</a>
-    <a href='#'>WishList</a>
+    <a href='https://localhost:3000'>Home</a>
+    <hr></hr>
+    <a href='https://localhost:3000'>Catalog</a>
+    <hr></hr>
+    <a href='https://localhost:3000'>WishList</a>
+           <hr></hr>
 
   </div>
 

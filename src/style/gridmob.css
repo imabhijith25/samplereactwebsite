@@ -46,7 +46,7 @@
         
     }
 
-    .bottomTwo.singular{
+    .singular{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -90,13 +90,13 @@
     font-weight: bold;
 }
 
-    .bottomTwo.singular h3{
+.singular h3{
         color: white;
 
     }
 
 
-    .bottomTwo.singular.one{
+    .one{
         background-image: linear-gradient(rgba(29, 24, 24, 0.5),
         rgba(116, 114, 114, 0.5)),url("https://cdn.shopify.com/s/files/1/0604/0797/2065/collections/bg-5_1080x.jpg?v=1634657849");
         background-size: cover;
